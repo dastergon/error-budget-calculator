@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Roboto:500,300");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500");
 
 body {
     font-family: "Roboto", Helvetica, sans-serif;
@@ -23,6 +23,21 @@ header p {
     color: #bbb;
     position: relative;
     margin: 0 0 1em 0;
+}
+
+#note {
+    color: #bbb;
+    font-size: 0.9em;
+}
+
+#note a {
+    color: #bbb;
+    text-decoration:underline;
+}
+
+#note a:hover {
+    color: #555f66;
+    text-decoration:underline;
 }
 
 #custom-table {
@@ -79,7 +94,6 @@ input[type=button] {
     border-radius: 4px;
     cursor: pointer;
 }
-
 
 ul {
 	list-style: none;
